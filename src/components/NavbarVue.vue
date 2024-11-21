@@ -1,6 +1,6 @@
 <template lang="">
   <div
-    class="flex justify-between items-center px-4 bg-[#E4BC84] text-xl font-semibold shadow-md fixed z-10 w-full"
+    class="flex justify-between items-center px-4 bg-[#E4BC84] text-xl font-semibold shadow-md fixed z-30 w-full"
   >
     <div class="logo">
       <img :src="logo" alt="logo" class="mix-blend-multiply size-24" />

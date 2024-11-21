@@ -1,8 +1,14 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./index.html", "./src/**/*.{vue,js,ts,jsx,tsx}"],
+  content: [
+    "./src/**/*.{html,js,vue}", // Sesuaikan dengan lokasi file Vue Anda
+  ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        poppins: ["Poppins", "sans-serif"], // Tambahkan konfigurasi Poppins
+      },
+    },
   },
   plugins: [],
 };
